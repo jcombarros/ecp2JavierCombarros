@@ -13,11 +13,9 @@ public class FractionTest {
 	
 	@Before
 	public void before(){
-		
 		fraccionUnidad = new Fraction();
 		fraccionEntero = new Fraction(4,2);
 		fraccionDecimal = new Fraction(5,2);
-		
 	}
 
 	@Test
