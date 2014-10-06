@@ -34,7 +34,7 @@ public class DecimalCollectionTest {
 	
 	@Test
 	public void testMenor(){
-		asertEquals(1.0,menor());
+		assertEquals(1.0, decimalCollection.menor(),1e-3);
 	}
 
 }
