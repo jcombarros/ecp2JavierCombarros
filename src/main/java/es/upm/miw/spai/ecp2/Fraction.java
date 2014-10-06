@@ -69,5 +69,10 @@ public class Fraction {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	public double divide(Fraction fraccion) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
     
 }

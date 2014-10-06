@@ -55,7 +55,11 @@ public class FractionTest {
 	
 	@Test
 	public void testMultiplication() {
-		assertEquals(0.75, fraccionDecimal.multiplication(fraccionDecimal3), 1e-3);
+		assertEquals(0.75, fraccionEntero.multiplication(fraccionDecimal3), 1e-3);
 	}
-
+	
+	@Test
+	public void testDivide() {
+		assertEquals(0.2, fraccionEntero.divide(fraccionDecimal), 1e-3);
+	}
 }
