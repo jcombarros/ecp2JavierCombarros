@@ -64,5 +64,10 @@ public class Fraction {
 	public Boolean isEquivalente(Fraction fraccion) {
 		return null;
 	}
+
+	public double multiplication(Fraction fraccion) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
     
 }
