@@ -59,5 +59,10 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
+
+	public Boolean isEquivalente(Fraction fraccion) {
+		return null;
+	}
     
 }

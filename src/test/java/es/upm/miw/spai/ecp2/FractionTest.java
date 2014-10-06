@@ -10,12 +10,14 @@ public class FractionTest {
 	private Fraction fraccionUnidad;
 	private Fraction fraccionEntero;
 	private Fraction fraccionDecimal;
+	private Fraction fraccionDecimal2;
 	
 	@Before
 	public void before(){
 		fraccionUnidad = new Fraction();
 		fraccionEntero = new Fraction(4,2);
 		fraccionDecimal = new Fraction(5,2);
+		fraccionDecimal2 = new Fraction(10,4);
 	}
 
 	@Test
@@ -41,6 +43,12 @@ public class FractionTest {
 	@Test
 	public void testDecimalFraccionDecimal() {
 		assertEquals(2.5, fraccionDecimal.decimal(),1e-3);
+	}
+	
+	@Test
+	public void testIsEquivalente() {
+		assertEquals(true, fraccionDecimal.isEquivalente(fraccionDecimal2));
+		assertEquals(false, fraccionDecimal.isEquivalente(fraccionEntero));
 	}
 
 }
