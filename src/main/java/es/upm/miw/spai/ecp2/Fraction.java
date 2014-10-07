@@ -71,8 +71,10 @@ public class Fraction {
 	}
 
 	public double divide(Fraction fraccion) {
-		// TODO Auto-generated method stub
-		return 0;
+		int numeradorResultado = this.getNumerator() * fraccion.getDenominator();
+		int denominadorResultado = this.getDenominator() * fraccion.getNumerator();
+		
+		return numeradorResultado/denominadorResultado;		
 	}
     
 }
