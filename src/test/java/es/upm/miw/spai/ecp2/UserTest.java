@@ -38,5 +38,10 @@ public class UserTest {
 	public void testInitials() {
 		assertEquals("J.", user.initials());
 	}
+	
+	@Test
+	public void testToUpperCase(){
+		assertEquals("JAVIER",user.uppercase());
+	}
 
 }
