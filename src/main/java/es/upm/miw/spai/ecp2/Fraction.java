@@ -66,8 +66,7 @@ public class Fraction {
 	}
 
 	public double multiplication(Fraction fraccion) {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.decimal() * fraccion.decimal();
 	}
 
 	public double divide(Fraction fraccion) {
