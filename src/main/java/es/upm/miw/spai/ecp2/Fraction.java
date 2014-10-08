@@ -62,7 +62,13 @@ public class Fraction {
 
 
 	public Boolean isEquivalente(Fraction fraccion) {
-		return null;
+		
+	    	boolean isEquivalent = false;
+	    	if(fraccion.getNumerator() * this.getDenominator() == fraccion.getDenominator() * this.getNumerator()){
+	    		isEquivalent = true;
+	    	}
+	    	return isEquivalent;
+	   
 	}
 
 	public double multiplication(Fraction fraccion) {
