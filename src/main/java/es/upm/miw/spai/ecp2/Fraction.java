@@ -76,10 +76,10 @@ public class Fraction {
 	}
 
 	public double divide(Fraction fraccion) {
-		int numeradorResultado = this.getNumerator() * fraccion.getDenominator();
-		int denominadorResultado = this.getDenominator() * fraccion.getNumerator();
+		int numeradorResultado = this.numerator * fraccion.getDenominator();
+		int denominadorResultado = this.denominator * fraccion.getNumerator();
 		
-		return numeradorResultado/denominadorResultado;		
+		return (double)(numeradorResultado / denominadorResultado);		
 	}
     
 }
