@@ -79,7 +79,8 @@ public class Fraction {
 		int numeradorResultado = this.numerator * fraccion.getDenominator();
 		int denominadorResultado = this.denominator * fraccion.getNumerator();
 		
-		return (double)(numeradorResultado / denominadorResultado);		
+		double resultado = ((double)numeradorResultado / (double)denominadorResultado);
+		return resultado;		
 	}
     
 }

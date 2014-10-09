@@ -60,6 +60,6 @@ public class FractionTest {
 	
 	@Test
 	public void testDivide() {
-		assertEquals(0.0, fraccionEntero.divide(fraccionDecimal), 1e-3);
+		assertEquals(0.8, fraccionEntero.divide(fraccionDecimal), 1e-3);
 	}
 }
